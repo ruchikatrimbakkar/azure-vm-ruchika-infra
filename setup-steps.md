@@ -16,7 +16,6 @@
 - Subnet: "subnet-ruchika-lab" → "10.0.1.0/24"
 
 ![Virtual Network Creation](./screenshots/virtualnetwork.png)
-<hr>
 ![Virtual Network Creation](./screenshots/virtualnetwork-1.png)
 
 ---
@@ -43,9 +42,8 @@ sudo apt update
 sudo apt install apache2 -y
 sudo apt start apache2
 
-![Virtual Machine 1 Creation](./screenshots/virtualmachin1.png)
-<hr>
-![Virtual Machine 2 Creation](./screenshots/virtualmachin2.png)
+![Virtual Machine 1 Creation](./screenshots/virtualmachine1.png)
+![Virtual Machine 2 Creation](./screenshots/virtualmachine2.png)
 
 ---
 
@@ -57,7 +55,6 @@ sudo apt start apache2
 - Rule: Forward Port 80 to backend
 
 ![Public Load Balancer Creation](./screenshots/publicLB.png)
-<hr>
 ![Public Load Balancer Creation](./screenshots/backendpool-LB.png)
 
 ---
