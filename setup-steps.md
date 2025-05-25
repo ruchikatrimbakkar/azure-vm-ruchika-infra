@@ -1,8 +1,8 @@
-<h1><u>* Step-by-Step Setup – Azure VM High Availability Project * </u></h1>
+<h2><u>* Step-by-Step Setup – Azure VM High Availability Project * </u></h2>
 
 ---
 
-* 1. Create Resource Group
+<h3>* 1. Create Resource Group *</h3>
 - Name: "rg-ruchika-vm-lab"
 - Region: East Asia
 
@@ -10,7 +10,7 @@
 
 ---
 
-* 2. Create Virtual Network
+<h3>* 2. Create Virtual Network *</h3>
 - Name: "vnet-ruchika-lab"
 - Address space: "10.0.0.0/16"
 - Subnet: "subnet-ruchika-lab" → "10.0.1.0/24"
@@ -20,7 +20,7 @@
 
 ---
 
-* 3. Create Network Security Group
+<h3>* 3. Create Network Security Group *</h3>
 - Name: "nsg-ruchika-lab"
 - Inbound Rules:
   - Allow SSH (22) from any
@@ -31,7 +31,7 @@
 
 ---
 
-* 4. Create Two Linux VMs (Ubuntu 20.04 LTS)
+<h3>* 4. Create Two Linux VMs (Ubuntu 20.04 LTS) *</h3>
 - No Public IPs
 - Attach to "subnet-ruchika-lab" and "nsg-ruchika-lab"
 - Standard SSD, B1s/D2as_v5 VM size
@@ -46,7 +46,7 @@ sudo apt start apache2
 
 ---
 
-* 5. Create Public Load Balancer
+<h3>* 5. Create Public Load Balancer *</h3>
 - Name: "lb-ruchika-lab"
 - Frontend IP: new public IP
 - Backend Pool: Add both VMs
@@ -58,7 +58,7 @@ sudo apt start apache2
 
 ---
 
-* 6. Set Up Azure Bastion
+<h3>* 6. Set Up Azure Bastion *</h3>
 - Create subnet: AzureBastionSubnet → 10.0.255.0/26
 - Deploy Azure Bastion
 - SSH into VMs using Bastion in portal
@@ -67,7 +67,7 @@ sudo apt start apache2
 
 ---
 
-* 7. Test Load Balancer
+<h3>* 7. Test Load Balancer *</h3>
 - Visit Load Balancer public IP in browser "20.255.190.114"
 - Apache homepage appears
 
