@@ -68,7 +68,7 @@ sudo apt start apache2
 
 ---
 
-*7. Test Load Balancer
+* 7. Test Load Balancer
 - Visit Load Balancer public IP in browser "20.255.190.114"
 - Apache homepage appears
 
