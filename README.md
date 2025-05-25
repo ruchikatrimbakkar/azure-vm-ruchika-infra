@@ -11,7 +11,7 @@
 
 ---
 
-<u> * Tools & Services Used </u>
+* Tools & Services Used *
 
 - Microsoft Azure Portal
 - Ubuntu Linux
@@ -23,7 +23,7 @@
 
 ---
 
-* Features
+* Features *
 
 - Secure SSH via Bastion (no public IPs)
 - HTTP access via Load Balancer
@@ -33,7 +33,7 @@
 
 ---
 
-* What I Learned
+* What I Learned *
 
 - How to securely deploy Linux VMs with restricted access
 - Basics of Azure networking and subnet configuration
