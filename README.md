@@ -9,6 +9,8 @@ This project demonstrates the deployment of a secure and highly available Linux 
 - Azure Bastion for secure SSH access
 - Apache Web Server setup on each VM
 
+---
+
 * Tools & Services Used
 
 - Microsoft Azure Portal
@@ -40,4 +42,4 @@ This project demonstrates the deployment of a secure and highly available Linux 
 
 ---
 
-![Apache WebPage Screenshot] (./screenshots/apachewebpage.png)
+![Apache WebPage Screenshot](./screenshots/apachewebpage.png)
