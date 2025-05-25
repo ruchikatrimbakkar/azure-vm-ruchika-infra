@@ -2,7 +2,7 @@
 
 ---
 
-1. Create Resource Group 
+<h3>1. Create Resource Group </h3>
 - Name: "rg-ruchika-vm-lab"
 - Region: East Asia
 
