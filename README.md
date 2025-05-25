@@ -23,7 +23,7 @@
 
 ---
 
-* Features *
+<h3>* Features *</h3>
 
 - Secure SSH via Bastion (no public IPs)
 - HTTP access via Load Balancer
@@ -33,7 +33,7 @@
 
 ---
 
-* What I Learned *
+<h3>* What I Learned *</h3>
 
 - How to securely deploy Linux VMs with restricted access
 - Basics of Azure networking and subnet configuration
