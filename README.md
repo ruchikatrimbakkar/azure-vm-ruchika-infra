@@ -1,6 +1,6 @@
 <h1><u>* Azure VM High Availability Infrastructure *</u></h1>
 
-This project demonstrates the deployment of a secure and highly available Linux VM infrastructure on Microsoft Azure. It includes:
+<u>This project demonstrates the deployment of a secure and highly available Linux VM infrastructure on Microsoft Azure. It includes:</u>
 
 - Azure Virtual Network (VNet)
 - Network Security Group (NSG)
