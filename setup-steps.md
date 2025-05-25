@@ -27,7 +27,6 @@
   - Allow HTTP (80) from any
 
 ![Network Security Group Creation](./screenshots/NSG.png)
-<hr>
 ![Network Security Group Creation](./screenshots/NSG-rules.png)
 
 ---
