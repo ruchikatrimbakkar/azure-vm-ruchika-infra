@@ -6,7 +6,7 @@
 - Name: "rg-ruchika-vm-lab"
 - Region: East Asia
 
-![Resource Group Creation] (./screenshots/resourcegroup.png)
+![Resource Group Creation](./screenshots/resourcegroup.png)
 
 ---
 
@@ -15,8 +15,8 @@
 - Address space: "10.0.0.0/16"
 - Subnet: "subnet-ruchika-lab" → "10.0.1.0/24"
 
-![Virtual Network Creation] (./screenshots/virtualnetwork.png)
-![Virtual Network Creation] (./screenshots/virtualnetwork-1.png)
+![Virtual Network Creation](./screenshots/virtualnetwork.png)
+![Virtual Network Creation](./screenshots/virtualnetwork-1.png)
 
 ---
 
@@ -26,8 +26,8 @@
   - Allow SSH (22) from any
   - Allow HTTP (80) from any
 
-![Network Security Group Creation] (./screenshots/NSG.png)
-![Network Security Group Creation] (./screenshots/NSG-rules.png)
+![Network Security Group Creation](./screenshots/NSG.png)
+![Network Security Group Creation](./screenshots/NSG-rules.png)
 
 ---
 
@@ -41,8 +41,8 @@ sudo apt update
 sudo apt install apache2 -y
 sudo apt start apache2
 
-![Network Security Group Creation] (./screenshots/virtualmachin1.png)
-![Network Security Group Creation] (./screenshots/virtualmachin2.png)
+![Network Security Group Creation](./screenshots/virtualmachin1.png)
+![Network Security Group Creation](./screenshots/virtualmachin2.png)
 
 ---
 
@@ -53,8 +53,8 @@ sudo apt start apache2
 - Health Probe: HTTP, Port 80
 - Rule: Forward Port 80 to backend
 
-![Public Load Balancer Creation] (./screenshots/publicLB.png)
-![Public Load Balancer Creation] (./screenshots/backendpool-LB.png)
+![Public Load Balancer Creation](./screenshots/publicLB.png)
+![Public Load Balancer Creation](./screenshots/backendpool-LB.png)
 
 ---
 
@@ -63,7 +63,7 @@ sudo apt start apache2
 - Deploy Azure Bastion
 - SSH into VMs using Bastion in portal
 
-![Bastion Host Creation] (./screenshots/bastion.png)
+![Bastion Host Creation](./screenshots/bastion.png)
 
 ---
 
@@ -71,6 +71,6 @@ sudo apt start apache2
 - Visit Load Balancer public IP in browser "20.255.190.114"
 - Apache homepage appears
 
-![Apache webpage] (./screenshots/apachewebpage.png)
+![Apache webpage](./screenshots/apachewebpage.png)
 
 ---
