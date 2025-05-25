@@ -1,4 +1,4 @@
-* Step-by-Step Setup – Azure VM High Availability Project
+<h1><u>* Step-by-Step Setup – Azure VM High Availability Project * </u></h1>
 
 ---
 
