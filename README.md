@@ -11,7 +11,7 @@
 
 ---
 
-* Tools & Services Used
+<u> * Tools & Services Used </u>
 
 - Microsoft Azure Portal
 - Ubuntu Linux
